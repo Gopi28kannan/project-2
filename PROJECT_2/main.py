@@ -1,8 +1,4 @@
 #this file run three python files in current folder, and get the single run option
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from webdriver_manager.chrome import ChromeDriverManager
-from selenium.webdriver.chrome.service import Service
 import pytest
 # Test case id 1 run as Forget_pasword
 import Forget_password as FP
